@@ -44,6 +44,15 @@ const CreateLink = () => {
         }}
       >
         <div className="flex flex-column mt3">
+          <h3>
+            S18003216 Mabel Perez Garibay
+          </h3>
+          <br />
+          <h4>
+            Crea un nuevo link
+          </h4>
+        </div>
+        <div className="flex flex-column mt3">
           <input
             className="mb2"
             value={formState.description}
